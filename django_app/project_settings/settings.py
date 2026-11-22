@@ -15,7 +15,8 @@ PROJECT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(os.path.abspath(__
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@)0qp0!&-vht7k0wyuihr+nk-b8zrvb5j^1d@vl84cd1%)f=dz'
+# Read from the environment; the fallback is for a local demo only.
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "local-demo-only-change-me")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
