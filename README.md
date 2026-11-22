@@ -1,4 +1,4 @@
-# MediaForensiX — Deepfake Video Detector
+# MediaForensiX - Deepfake Video Detector
 
 **Final-year project · Bachelor in Computer Forensic (Hons), Management and Science University (2024)**
 **🥇 Gold Medal, 18th Idea Regeneration Expo (iReX) 2024**
